@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Downloader</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { 
+      font-family: system-ui, -apple-system, sans-serif; 
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+      min-height: 100vh; 
+      margin: 0; 
+      padding: 20px;
+    }
+    .card { 
+      background: white; 
+      padding: 35px 25px; 
+      border-radius: 20px; 
+      width: 100%; 
+      max-width: 400px; 
+      text-align: center; 
+      box-shadow: 0 15px 30px rgba(0,0,0,0.2); 
+    }
+    h2 { color: #333; margin-top: 0; margin-bottom: 10px; font-size: 24px; }
+    p { color: #666; font-size: 15px; margin-bottom: 25px; }
+    
+    .link-box {
+      background: #f1f5f9;
+      padding: 12px;
+      border-radius: 10px;
+      border: 1px dashed #cbd5e1;
+      font-size: 13px;
+      color: #475569;
+      word-break: break-all;
+      margin-bottom: 25px;
+    }
+
+    .download-btn { 
+      display: block; 
+      width: 100%; 
+      padding: 16px; 
+      background: #22c55e; 
+      color: white; 
+      text-decoration: none; 
+      border-radius: 12px; 
+      font-size: 18px; 
+      font-weight: bold; 
+      box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4);
+      transition: 0.2s;
+    }
+    .download-btn:hover { background: #16a34a; transform: translateY(-2px); }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>📲 অ্যাপ ডাউনলোডার</h2>
+    <p>নিচের বাটনে ক্লিক করে সরাসরি অ্যাপটি ডাউনলোড করুন।</p>
+    
+    <div class="link-box">
+      🔗 https://files.catbox.moe/7d2dsv.apk
+    </div>
+
+    <!-- এখানে আপনার লিংকটি সরাসরি বসানো আছে -->
+    <a href="https://files.catbox.moe/7d2dsv.apk" class="download-btn" download>⬇ অ্যাপ ডাউনলোড করুন</a>
+  </div>
+
+</body>
+</html>
